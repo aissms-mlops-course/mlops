@@ -10,8 +10,8 @@ load_data:
   clean_data: data/processed/insurance_aissms.csv
 
 split_data:
-  train_data: data/processed/insurance_aissms_train.csv
-  test_data: data/processed/insurance_aissms_test.csv
+  train_path: data/processed/insurance_aissms_train.csv
+  test_path: data/processed/insurance_aissms_test.csv
   test_size: 0.2
 
 estimators:
