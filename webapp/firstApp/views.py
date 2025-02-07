@@ -23,7 +23,7 @@ def result(request):
     children = int(request.GET['children']),
     smoker = int(request.GET['smoker']),
     region = int(request.GET['region']),
-    charges = int(answer[0]))
+    prediction = int(answer[0]))
 
     b.save()
 
